@@ -31,8 +31,7 @@
   --font-lead: clamp(var(--font-xxxxl-mobile), 4.415vw + 11.864px, var(--font-xxxxl-desktop));
   --line-height: 1.7;
   --line-height-heading: 1.2;
-  --header-height: 64px;
-  --header-height-on-mobile: 56px;
+
   --container-size: 1120px;
   --side-padding: 16px;
   --primary-50: #f5fcfd;
@@ -330,10 +329,6 @@ h6 {
   line-height: var(--line-height-heading);
 }
 
-.header {
-  height: 64px;
-  height: var(--header-height);
-}
 .side-padding {
   padding-left: 16px;
   padding-right: 16px;
@@ -3308,7 +3303,7 @@ h6 {
   }
 }
 .animate {
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: all ease 0.5s;
   transition-duration: 0.5s;
   transition-duration: var(--duration-base);
 }
@@ -3444,35 +3439,35 @@ h6 {
 }
 .delay-gradual:nth-child(2) {
   transition-delay: 0.5s;
-  transition-delay: var(--delay-gradual-base-base);
+  transition-delay: var(--delay-gradual-base);
 }
 .delay-gradual:nth-child(3) {
   transition-delay: 1s;
-  transition-delay: calc(var(--delay-gradual-base-base) * 2);
+  transition-delay: calc(var(--delay-gradual-base) * 2);
 }
 .delay-gradual:nth-child(4) {
   transition-delay: 1.5s;
-  transition-delay: calc(var(--delay-gradual-base-base) * 3);
+  transition-delay: calc(var(--delay-gradual-base) * 3);
 }
 .delay-gradual:nth-child(5) {
   transition-delay: 2s;
-  transition-delay: calc(var(--delay-gradual-base-base) * 4);
+  transition-delay: calc(var(--delay-gradual-base) * 4);
 }
 .delay-gradual:nth-child(6) {
   transition-delay: 2.5s;
-  transition-delay: calc(var(--delay-gradual-base-base) * 5);
+  transition-delay: calc(var(--delay-gradual-base) * 5);
 }
 .delay-gradual:nth-child(7) {
   transition-delay: 3s;
-  transition-delay: calc(var(--delay-gradual-base-base) * 6);
+  transition-delay: calc(var(--delay-gradual-base) * 6);
 }
 .delay-gradual:nth-child(8) {
   transition-delay: 3.5s;
-  transition-delay: calc(var(--delay-gradual-base-base) * 7);
+  transition-delay: calc(var(--delay-gradual-base) * 7);
 }
 .delay-gradual:nth-child(9) {
-  transition-delay: 4;
-  transition-delay: calc(var(--delay-gradual-base-base) * 8);
+  transition-delay: 4s;
+  transition-delay: calc(var(--delay-gradual-base) * 8);
 }
 .hover-appear {
   opacity: 0;
@@ -4749,36 +4744,6 @@ h6 {
   .md\:invisible {
     visibility: hidden;
   }
-  .md\:z--1 {
-    z-index: -1;
-  }
-  .md\:z-0 {
-    z-index: 0;
-  }
-  .md\:z-10 {
-    z-index: 10;
-  }
-  .md\:z-20 {
-    z-index: 20;
-  }
-  .md\:z-30 {
-    z-index: 30;
-  }
-  .md\:z-40 {
-    z-index: 40;
-  }
-  .md\:z-50 {
-    z-index: 50;
-  }
-  .md\:z-auto {
-    z-index: auto;
-  }
-  .md\:z-bottom {
-    z-index: -1;
-  }
-  .md\:z-top {
-    z-index: 999;
-  }
   .md\:basis-auto {
     flex-basis: auto;
   }
@@ -5531,10 +5496,6 @@ h6 {
   p {
     line-height: 1.5;
     line-height: var(--line-height);
-  }
-  .header {
-    height: 48px;
-    height: var(--header-height-on-mobile);
   }
 
   .sm\:text-xs {
@@ -6594,9 +6555,7 @@ h6 {
     row-gap: 10rem;
     row-gap: var(--space-xxxl);
   }
-  .header {
-    height: 45px;
-  }
+
   .sm\:block {
     display: block;
   }
@@ -6697,36 +6656,7 @@ h6 {
   .sm\:invisible {
     visibility: hidden;
   }
-  .sm\:z--1 {
-    z-index: -1;
-  }
-  .sm\:z-0 {
-    z-index: 0;
-  }
-  .sm\:z-10 {
-    z-index: 10;
-  }
-  .sm\:z-20 {
-    z-index: 20;
-  }
-  .sm\:z-30 {
-    z-index: 30;
-  }
-  .sm\:z-40 {
-    z-index: 40;
-  }
-  .sm\:z-50 {
-    z-index: 50;
-  }
-  .sm\:z-auto {
-    z-index: auto;
-  }
-  .sm\:z-bottom {
-    z-index: -1;
-  }
-  .sm\:z-top {
-    z-index: 999;
-  }
+
   .sm\:basis-auto {
     flex-basis: auto;
   }
@@ -7482,7 +7412,7 @@ h6 {
     aspect-ratio: 3 / 2;
   }
 }
-@media (max-width: 479px) {
+@media (max-width: 480px) {
   .xs\:text-xs {
     font-size: 0.79rem;
     font-size: var(--font-xs);
@@ -8539,10 +8469,7 @@ h6 {
     row-gap: 10rem;
     row-gap: var(--space-xxxl);
   }
-  .header {
-    height: 45px;
-    height: var(--header-height-on-mobile);
-  }
+
   .xs\:block {
     display: block;
   }
@@ -8643,36 +8570,7 @@ h6 {
   .xs\:invisible {
     visibility: hidden;
   }
-  .xs\:z--1 {
-    z-index: -1;
-  }
-  .xs\:z-0 {
-    z-index: 0;
-  }
-  .xs\:z-10 {
-    z-index: 10;
-  }
-  .xs\:z-20 {
-    z-index: 20;
-  }
-  .xs\:z-30 {
-    z-index: 30;
-  }
-  .xs\:z-40 {
-    z-index: 40;
-  }
-  .xs\:z-50 {
-    z-index: 50;
-  }
-  .xs\:z-auto {
-    z-index: auto;
-  }
-  .xs\:z-bottom {
-    z-index: -1;
-  }
-  .xs\:z-top {
-    z-index: 999;
-  }
+
   .xs\:basis-auto {
     flex-basis: auto;
   }
