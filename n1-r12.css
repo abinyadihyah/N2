@@ -3913,47 +3913,46 @@ h6 {
   }
 }
 @media (max-width: 1168px) {
-  .lg\:font-xs,
   .lg\:text-xs {
     font-size: 0.79rem;
     font-size: var(--font-xs);
   }
-  .lg\:font-sm,
+
   .lg\:text-sm {
     font-size: 0.889rem;
     font-size: var(--font-sm);
   }
-  .lg\:font-base,
+
   .lg\:text-base {
     font-size: 1rem;
     font-size: var(--font-base);
   }
-  .lg\:font-md,
+
   .lg\:text-md {
     font-size: 1.125rem;
     font-size: var(--font-md);
   }
-  .lg\:font-lg,
+
   .lg\:text-lg {
     font-size: 1.266rem;
     font-size: var(--font-lg);
   }
-  .lg\:font-xl,
+
   .lg\:text-xl {
     font-size: 1.424rem;
     font-size: var(--font-xl);
   }
-  .lg\:font-xxl,
+
   .lg\:text-2xl {
     font-size: 1.602rem;
     font-size: var(--font-xxl);
   }
-  .lg\:font-xxxl,
+
   .lg\:text-3xl {
     font-size: 1.802rem;
     font-size: var(--font-xxxl);
   }
-  .lg\:font-lead,
+
   .lg\:text-4xl {
     font-size: 2.027rem;
     font-size: var(--font-lead);
@@ -4063,51 +4062,6 @@ h6 {
     overflow: hidden;
   }
 
-  .lg\:opacity-0 {
-    opacity: 0;
-  }
-  .lg\:opacity-5 {
-    opacity: 0.05;
-  }
-  .lg\:opacity-10 {
-    opacity: 0.1;
-  }
-  .lg\:opacity-20 {
-    opacity: 0.2;
-  }
-  .lg\:opacity-25 {
-    opacity: 0.25;
-  }
-  .lg\:opacity-30 {
-    opacity: 0.3;
-  }
-  .lg\:opacity-40 {
-    opacity: 0.4;
-  }
-  .lg\:opacity-50 {
-    opacity: 0.5;
-  }
-  .lg\:opacity-60 {
-    opacity: 0.6;
-  }
-  .lg\:opacity-70 {
-    opacity: 0.7;
-  }
-  .lg\:opacity-75 {
-    opacity: 0.75;
-  }
-  .lg\:opacity-80 {
-    opacity: 0.8;
-  }
-  .lg\:opacity-90 {
-    opacity: 0.9;
-  }
-  .lg\:opacity-95 {
-    opacity: 0.95;
-  }
-  .lg\:opacity-100 {
-    opacity: 1;
-  }
   .lg\:m-auto {
     margin: auto;
   }
@@ -6337,47 +6291,46 @@ h6 {
   }
 }
 @media (max-width: 992px) {
-  .md\:font-xs,
   .md\:text-xs {
     font-size: 0.79rem;
     font-size: var(--font-xs);
   }
-  .md\:font-sm,
+
   .md\:text-sm {
     font-size: 0.889rem;
     font-size: var(--font-sm);
   }
-  .md\:font-base,
+
   .md\:text-base {
     font-size: 1rem;
     font-size: var(--font-base);
   }
-  .md\:font-md,
+
   .md\:text-md {
     font-size: 1.125rem;
     font-size: var(--font-md);
   }
-  .md\:font-lg,
+
   .md\:text-lg {
     font-size: 1.266rem;
     font-size: var(--font-lg);
   }
-  .md\:font-xl,
+
   .md\:text-xl {
     font-size: 1.424rem;
     font-size: var(--font-xl);
   }
-  .md\:font-xxl,
+
   .md\:text-2xl {
     font-size: 1.602rem;
     font-size: var(--font-xxl);
   }
-  .md\:font-xxxl,
+
   .md\:text-3xl {
     font-size: 1.802rem;
     font-size: var(--font-xxxl);
   }
-  .md\:font-lead,
+
   .md\:text-4xl {
     font-size: 2.027rem;
     font-size: var(--font-lead);
@@ -6487,51 +6440,6 @@ h6 {
     overflow: hidden;
   }
 
-  .md\:opacity-0 {
-    opacity: 0;
-  }
-  .md\:opacity-5 {
-    opacity: 0.05;
-  }
-  .md\:opacity-10 {
-    opacity: 0.1;
-  }
-  .md\:opacity-20 {
-    opacity: 0.2;
-  }
-  .md\:opacity-25 {
-    opacity: 0.25;
-  }
-  .md\:opacity-30 {
-    opacity: 0.3;
-  }
-  .md\:opacity-40 {
-    opacity: 0.4;
-  }
-  .md\:opacity-50 {
-    opacity: 0.5;
-  }
-  .md\:opacity-60 {
-    opacity: 0.6;
-  }
-  .md\:opacity-70 {
-    opacity: 0.7;
-  }
-  .md\:opacity-75 {
-    opacity: 0.75;
-  }
-  .md\:opacity-80 {
-    opacity: 0.8;
-  }
-  .md\:opacity-90 {
-    opacity: 0.9;
-  }
-  .md\:opacity-95 {
-    opacity: 0.95;
-  }
-  .md\:opacity-100 {
-    opacity: 1;
-  }
   .md\:m-auto {
     margin: auto;
   }
@@ -8696,47 +8604,47 @@ h6 {
     height: 48px;
     height: var(--header-height-on-mobile);
   }
-  .sm\:font-xs,
+
   .sm\:text-xs {
     font-size: 0.79rem;
     font-size: var(--font-xs);
   }
-  .sm\:font-sm,
+
   .sm\:text-sm {
     font-size: 0.889rem;
     font-size: var(--font-sm);
   }
-  .sm\:font-base,
+
   .sm\:text-base {
     font-size: 1rem;
     font-size: var(--font-base);
   }
-  .sm\:font-md,
+
   .sm\:text-md {
     font-size: 1.125rem;
     font-size: var(--font-md);
   }
-  .sm\:font-lg,
+
   .sm\:text-lg {
     font-size: 1.266rem;
     font-size: var(--font-lg);
   }
-  .sm\:font-xl,
+
   .sm\:text-xl {
     font-size: 1.424rem;
     font-size: var(--font-xl);
   }
-  .sm\:font-xxl,
+
   .sm\:text-2xl {
     font-size: 1.602rem;
     font-size: var(--font-xxl);
   }
-  .sm\:font-xxxl,
+
   .sm\:text-3xl {
     font-size: 1.802rem;
     font-size: var(--font-xxxl);
   }
-  .sm\:font-lead,
+
   .sm\:text-4xl {
     font-size: 2.027rem;
     font-size: var(--font-lead);
@@ -8849,51 +8757,6 @@ h6 {
     fill: currentColor !important;
   }
 
-  .sm\:opacity-0 {
-    opacity: 0;
-  }
-  .sm\:opacity-5 {
-    opacity: 0.05;
-  }
-  .sm\:opacity-10 {
-    opacity: 0.1;
-  }
-  .sm\:opacity-20 {
-    opacity: 0.2;
-  }
-  .sm\:opacity-25 {
-    opacity: 0.25;
-  }
-  .sm\:opacity-30 {
-    opacity: 0.3;
-  }
-  .sm\:opacity-40 {
-    opacity: 0.4;
-  }
-  .sm\:opacity-50 {
-    opacity: 0.5;
-  }
-  .sm\:opacity-60 {
-    opacity: 0.6;
-  }
-  .sm\:opacity-70 {
-    opacity: 0.7;
-  }
-  .sm\:opacity-75 {
-    opacity: 0.75;
-  }
-  .sm\:opacity-80 {
-    opacity: 0.8;
-  }
-  .sm\:opacity-90 {
-    opacity: 0.9;
-  }
-  .sm\:opacity-95 {
-    opacity: 0.95;
-  }
-  .sm\:opacity-100 {
-    opacity: 1;
-  }
   .sm\:m-auto {
     margin: auto;
   }
@@ -11059,47 +10922,46 @@ h6 {
   }
 }
 @media (max-width: 479px) {
-  .xs\:font-xs,
   .xs\:text-xs {
     font-size: 0.79rem;
     font-size: var(--font-xs);
   }
-  .xs\:font-sm,
+
   .xs\:text-sm {
     font-size: 0.889rem;
     font-size: var(--font-sm);
   }
-  .xs\:font-base,
+
   .xs\:text-base {
     font-size: 1rem;
     font-size: var(--font-base);
   }
-  .xs\:font-md,
+
   .xs\:text-md {
     font-size: 1.125rem;
     font-size: var(--font-md);
   }
-  .xs\:font-lg,
+
   .xs\:text-lg {
     font-size: 1.266rem;
     font-size: var(--font-lg);
   }
-  .xs\:font-xl,
+
   .xs\:text-xl {
     font-size: 1.424rem;
     font-size: var(--font-xl);
   }
-  .xs\:font-xxl,
+
   .xs\:text-2xl {
     font-size: 1.602rem;
     font-size: var(--font-xxl);
   }
-  .xs\:font-xxxl,
+
   .xs\:text-3xl {
     font-size: 1.802rem;
     font-size: var(--font-lead);
   }
-  .xs\:font-lead,
+
   .xs\:text-4xl {
     font-size: 2.027rem;
   }
@@ -11211,51 +11073,6 @@ h6 {
     fill: currentColor !important;
   }
 
-  .xs\:opacity-0 {
-    opacity: 0;
-  }
-  .xs\:opacity-5 {
-    opacity: 0.05;
-  }
-  .xs\:opacity-10 {
-    opacity: 0.1;
-  }
-  .xs\:opacity-20 {
-    opacity: 0.2;
-  }
-  .xs\:opacity-25 {
-    opacity: 0.25;
-  }
-  .xs\:opacity-30 {
-    opacity: 0.3;
-  }
-  .xs\:opacity-40 {
-    opacity: 0.4;
-  }
-  .xs\:opacity-50 {
-    opacity: 0.5;
-  }
-  .xs\:opacity-60 {
-    opacity: 0.6;
-  }
-  .xs\:opacity-70 {
-    opacity: 0.7;
-  }
-  .xs\:opacity-75 {
-    opacity: 0.75;
-  }
-  .xs\:opacity-80 {
-    opacity: 0.8;
-  }
-  .xs\:opacity-90 {
-    opacity: 0.9;
-  }
-  .xs\:opacity-95 {
-    opacity: 0.95;
-  }
-  .xs\:opacity-100 {
-    opacity: 1;
-  }
   .xs\:m-auto {
     margin: auto;
   }
