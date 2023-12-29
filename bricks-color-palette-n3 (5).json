@@ -1,0 +1,547 @@
+{
+  "id": "omqrrz",
+  "name": "N3",
+  "colors": [
+    {
+      "id": "ufxpbj",
+      "name": "black",
+      "raw": "var(--black)"
+    },
+    {
+      "id": "hrnicd",
+      "name": "black-soft",
+      "raw": "var(--black-soft)"
+    },
+    {
+      "id": "hhvzgk",
+      "name": "black-softer",
+      "raw": "var(--black-softer)"
+    },
+    {
+      "id": "ydokut",
+      "name": "black-softest",
+      "raw": "var(--black-softest)"
+    },
+    {
+      "id": "sxzkir",
+      "name": "gray",
+      "raw": "var(--gray)"
+    },
+    {
+      "id": "sbshaf",
+      "name": "white-darkest",
+      "raw": "var(--white-darkest)"
+    },
+    {
+      "id": "ljtkqo",
+      "name": "white-darker",
+      "raw": "var(--white-darker)"
+    },
+    {
+      "id": "ljtkqj",
+      "name": "white-dark",
+      "raw": "var(--white-dark)"
+    },
+    {
+      "id": "chdlse",
+      "name": "white",
+      "raw": "var(--white)"
+    },
+    {
+      "id": "dgrlhg",
+      "name": "slate-900",
+      "raw": "var(--slate-900)"
+    },
+    {
+      "id": "defmzj",
+      "name": "slate-800",
+      "raw": "var(--slate-800)"
+    },
+    {
+      "id": "brulmd",
+      "name": "slate-700",
+      "raw": "var(--slate-700)"
+    },
+    {
+      "id": "sdcyan-v",
+      "name": "slate-600",
+      "raw": "var(--slate-600)"
+    },
+    {
+      "id": "ulvngm",
+      "name": "slate-500",
+      "raw": "var(--slate-500)"
+    },
+    {
+      "id": "mvpzti",
+      "name": "slate-400",
+      "raw": "var(--slate-400)"
+    },
+    {
+      "id": "gbzhtq",
+      "name": "slate-300",
+      "raw": "var(--slate-300)"
+    },
+    {
+      "id": "pkrrvz",
+      "name": "slate-200",
+      "raw": "var(--slate-200)"
+    },
+    {
+      "id": "pkrrvn",
+      "name": "slate-100",
+      "raw": "var(--slate-100)"
+    },
+    {
+      "id": "abljvo",
+      "name": "primary-900",
+      "raw": "var(--primary-900)"
+    },
+    {
+      "id": "oukyfl",
+      "name": "primary-800",
+      "raw": "var(--primary-800)"
+    },
+    {
+      "id": "utqmqx",
+      "name": "primary-700",
+      "raw": "var(--primary-700)"
+    },
+    {
+      "id": "teegue",
+      "name": "primary-600",
+      "raw": "var(--primary-600)"
+    },
+    {
+      "id": "qrhczt",
+      "name": "primary-500",
+      "raw": "var(--primary-500)"
+    },
+    {
+      "id": "dxoxfw",
+      "name": "primary-400",
+      "raw": "var(--primary-400)"
+    },
+    {
+      "id": "gncfcx",
+      "name": "primary-300",
+      "raw": "var(--primary-300)"
+    },
+    {
+      "id": "xfscbx",
+      "name": "primary-200",
+      "raw": "var(--primary-200)"
+    },
+    {
+      "id": "xfscbs",
+      "name": "primary-100",
+      "raw": "var(--primary-100)"
+    },
+    {
+      "id": "kqaxvk",
+      "name": "secondary-900",
+      "raw": "var(--secondary-900)"
+    },
+    {
+      "id": "igzeyk",
+      "name": "secondary-800",
+      "raw": "var(--secondary-800)"
+    },
+    {
+      "id": "ptnhna",
+      "name": "secondary-700",
+      "raw": "var(--secondary-700)"
+    },
+    {
+      "id": "kjvhzd",
+      "name": "secondary-600",
+      "raw": "var(--secondary-600)"
+    },
+    {
+      "id": "lxgxrl",
+      "name": "secondary-500",
+      "raw": "var(--secondary-500)"
+    },
+    {
+      "id": "grvebp",
+      "name": "secondary-400",
+      "raw": "var(--secondary-400)"
+    },
+    {
+      "id": "lamvhn",
+      "name": "secondary-300",
+      "raw": "var(--secondary-300)"
+    },
+    {
+      "id": "njckgz",
+      "name": "secondary-200",
+      "raw": "var(--secondary-200)"
+    },
+    {
+      "id": "njckgq",
+      "name": "secondary-100",
+      "raw": "var(--secondary-100)"
+    },
+    {
+      "id": "ngzvln",
+      "name": "tertiary-900",
+      "raw": "var(--tertiary-900)"
+    },
+    {
+      "id": "ugefch",
+      "name": "tertiary-800",
+      "raw": "var(--tertiary-800)"
+    },
+    {
+      "id": "sbjxuv",
+      "name": "tertiary-700",
+      "raw": "var(--tertiary-700)"
+    },
+    {
+      "id": "nkuysv",
+      "name": "tertiary-600",
+      "raw": "var(--tertiary-600)"
+    },
+    {
+      "id": "woeezg",
+      "name": "tertiary-500",
+      "raw": "var(--tertiary-500)"
+    },
+    {
+      "id": "zdqwkj",
+      "name": "tertiary-400",
+      "raw": "var(--tertiary-400)"
+    },
+    {
+      "id": "jznpia",
+      "name": "tertiary-300",
+      "raw": "var(--tertiary-300)"
+    },
+    {
+      "id": "drjxax",
+      "name": "tertiary-200",
+      "raw": "var(--tertiary-200)"
+    },
+    {
+      "id": "drjxad",
+      "name": "tertiary-100",
+      "raw": "var(--tertiary-100)"
+    },
+    {
+      "id": "baaaae",
+      "name": "dark-mode-100",
+      "raw": "var(--dark-mode-100)"
+    },
+    {
+      "id": "baaaad",
+      "name": "dark-mode-200",
+      "raw": "var(--dark-mode-200)"
+    },
+    {
+      "id": "baaaac",
+      "name": "dark-mode-300",
+      "raw": "var(--dark-mode-300)"
+    },
+    {
+      "id": "baaaab",
+      "name": "dark-mode-400",
+      "raw": "var(--dark-mode-400)"
+    },
+    {
+      "id": "baaaaa",
+      "name": "dark-mode-500",
+      "raw": "var(--dark-mode-500)"
+    },
+    {
+      "id": "yrynfp",
+      "name": "dark-mode-600",
+      "raw": "var(--dark-mode-600)"
+    },
+    {
+      "id": "zmzife",
+      "name": "dark-mode-700",
+      "raw": "var(--dark-mode-700)"
+    },
+    {
+      "id": "ewiakv",
+      "name": "dark-mode-800",
+      "raw": "var(--dark-mode-800)"
+    },
+    {
+      "id": "yrdliy",
+      "name": "dark-mode-900",
+      "raw": "var(--dark-mode-900)"
+    },
+    {
+      "id": "ivwhzx",
+      "name": "dark-opacity-90",
+      "raw": "var(--black-opacity-90)"
+    },
+    {
+      "id": "ctfgor",
+      "name": "dark-opacity-80",
+      "raw": "var(--black-opacity-80)"
+    },
+    {
+      "id": "lujaoe",
+      "name": "dark-opacity-70",
+      "raw": "var(--black-opacity-70)"
+    },
+    {
+      "id": "apddle",
+      "name": "dark-opacity-60",
+      "raw": "var(--black-opacity-60)"
+    },
+    {
+      "id": "baaaaf",
+      "name": "dark-opacity-50",
+      "raw": "var(--black-opacity-50)"
+    },
+    {
+      "id": "baaaag",
+      "name": "dark-opacity-40",
+      "raw": "var(--black-opacity-40)"
+    },
+    {
+      "id": "baaaah",
+      "name": "dark-opacity-30",
+      "raw": "var(--black-opacity-30)"
+    },
+    {
+      "id": "baaaai",
+      "name": "dark-opacity-20",
+      "raw": "var(--black-opacity-20)"
+    },
+    {
+      "id": "baaaaj",
+      "name": "dark-opacity-10",
+      "raw": "var(--black-opacity-10)"
+    },
+    {
+      "id": "rqmvah",
+      "name": "light-opacity-90",
+      "raw": "var(--white-opacity-90)"
+    },
+    {
+      "id": "drueuy",
+      "name": "light-opacity-80",
+      "raw": "var(--white-opacity-80)"
+    },
+    {
+      "id": "wwjori",
+      "name": "light-opacity-70",
+      "raw": "var(--white-opacity-70)"
+    },
+    {
+      "id": "pgolka",
+      "name": "light-opacity-60",
+      "raw": "var(--white-opacity-60)"
+    },
+    {
+      "id": "baaaak",
+      "name": "light-opacity-50",
+      "raw": "var(--white-opacity-50)"
+    },
+    {
+      "id": "baaaal",
+      "name": "light-opacity-40",
+      "raw": "var(--white-opacity-40)"
+    },
+    {
+      "id": "baaaam",
+      "name": "light-opacity-30",
+      "raw": "var(--white-opacity-30)"
+    },
+    {
+      "id": "baaaan",
+      "name": "light-opacity-20",
+      "raw": "var(--white-opacity-20)"
+    },
+    {
+      "id": "baaaao",
+      "name": "light-opacity-10",
+      "raw": "var(--white-opacity-10)"
+    },
+    {
+      "id": "wseexg",
+      "name": "primary-opacity-90",
+      "raw": "var(--primary-opacity-90)"
+    },
+    {
+      "id": "lfatxc",
+      "name": "primary-opacity-80",
+      "raw": "var(--primary-opacity-80)"
+    },
+    {
+      "id": "yjuyjq",
+      "name": "primary-opacity-70",
+      "raw": "var(--primary-opacity-70)"
+    },
+    {
+      "id": "wzfexw",
+      "name": "primary-opacity-60",
+      "raw": "var(--primary-opacity-60)"
+    },
+    {
+      "id": "baaaap",
+      "name": "primary-opacity-50",
+      "raw": "var(--primary-opacity-50)"
+    },
+    {
+      "id": "baaaaq",
+      "name": "primary-opacity-40",
+      "raw": "var(--primary-opacity-40)"
+    },
+    {
+      "id": "baaaar",
+      "name": "primary-opacity-30",
+      "raw": "var(--primary-opacity-30)"
+    },
+    {
+      "id": "baaaas",
+      "name": "primary-opacity-20",
+      "raw": "var(--primary-opacity-20)"
+    },
+    {
+      "id": "baaaat",
+      "name": "primary-opacity-10",
+      "raw": "var(--primary-opacity-10)"
+    },
+    {
+      "id": "lcmfim",
+      "name": "secondary-opacity-90",
+      "raw": "var(--secondary-opacity-90)"
+    },
+    {
+      "id": "gakksl",
+      "name": "secondary-opacity-80",
+      "raw": "var(--secondary-opacity-80)"
+    },
+    {
+      "id": "wpgsao",
+      "name": "secondary-opacity-70",
+      "raw": "var(--secondary-opacity-70)"
+    },
+    {
+      "id": "sjbwvv",
+      "name": "secondary-opacity-60",
+      "raw": "var(--secondary-opacity-60)"
+    },
+    {
+      "id": "baaaau",
+      "name": "secondary-opacity-50",
+      "raw": "var(--secondary-opacity-50)"
+    },
+    {
+      "id": "baaaav",
+      "name": "secondary-opacity-40",
+      "raw": "var(--secondary-opacity-40)"
+    },
+    {
+      "id": "baaaaw",
+      "name": "secondary-opacity-30",
+      "raw": "var(--secondary-opacity-30)"
+    },
+    {
+      "id": "baaaax",
+      "name": "secondary-opacity-20",
+      "raw": "var(--secondary-opacity-20)"
+    },
+    {
+      "id": "baaaay",
+      "name": "secondary-opacity-10",
+      "raw": "var(--secondary-opacity-10)"
+    },
+    {
+      "id": "baaaaz",
+      "name": "tertiary-opacity-90",
+      "raw": "var(--tertiary-opacity-90)"
+    },
+    {
+      "id": "bbaaaa",
+      "name": "tertiary-opacity-80",
+      "raw": "var(--tertiary-opacity-80)"
+    },
+    {
+      "id": "bbaaab",
+      "name": "tertiary-opacity-70",
+      "raw": "var(--tertiary-opacity-70)"
+    },
+    {
+      "id": "bbaaac",
+      "name": "tertiary-opacity-60",
+      "raw": "var(--tertiary-opacity-60)"
+    },
+    {
+      "id": "bbaaad",
+      "name": "tertiary-opacity-50",
+      "raw": "var(--tertiary-opacity-50)"
+    },
+    {
+      "id": "bbaaae",
+      "name": "tertiary-opacity-40",
+      "raw": "var(--tertiary-opacity-40)"
+    },
+    {
+      "id": "bbaaaf",
+      "name": "tertiary-opacity-30",
+      "raw": "var(--tertiary-opacity-30)"
+    },
+    {
+      "id": "bbaaag",
+      "name": "tertiary-opacity-20",
+      "raw": "var(--tertiary-opacity-20)"
+    },
+    {
+      "id": "bbaaah",
+      "name": "tertiary-opacity-10",
+      "raw": "var(--tertiary-opacity-10)"
+    },
+    {
+      "id": "bbaaai",
+      "name": "darkmode-opacity-90",
+      "raw": "var(--dark-mode-opacity-90)"
+    },
+    {
+      "id": "bbaaaj",
+      "name": "darkmode-opacity-80",
+      "raw": "var(--dark-mode-opacity-80)"
+    },
+    {
+      "id": "bbaaak",
+      "name": "darkmode-opacity-70",
+      "raw": "var(--dark-mode-opacity-70)"
+    },
+    {
+      "id": "bbaaal",
+      "name": "darkmode-opacity-60",
+      "raw": "var(--dark-mode-opacity-60)"
+    },
+    {
+      "id": "bbaaam",
+      "name": "darkmode-opacity-50",
+      "raw": "var(--dark-mode-opacity-50)"
+    },
+    {
+      "id": "bbaaan",
+      "name": "darkmode-opacity-40",
+      "raw": "var(--dark-mode-opacity-40)"
+    },
+    {
+      "id": "bbaaao",
+      "name": "darkmode-opacity-30",
+      "raw": "var(--dark-mode-opacity-30)"
+    },
+    {
+      "id": "bbaaap",
+      "name": "darkmode-opacity-20",
+      "raw": "var(--dark-mode-opacity-20)"
+    },
+    {
+      "id": "bbaaaq",
+      "name": "darkmode-opacity-10",
+      "raw": "var(--dark-mode-opacity-10)"
+    }
+  ],
+  "default": true
+}
