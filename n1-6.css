@@ -24,6 +24,24 @@
   --line-height: 1.7;
   --line-height-heading: 1.2;
 
+  /* Spacing System */
+  --spacing-xs-desktop: 6.755px;
+  --spacing-s-desktop: 9.005px;
+  --spacing-base-desktop: 16px;
+  --spacing-m-desktop: 21.328px;
+  --spacing-l-desktop: 28.43px;
+  --spacing-xl-desktop: 37.897px;
+  --spacing-xxl-desktop: 50.517px;
+  --spacing-xxxl-desktop: 67.34px;
+  --spacing-xs-mobile: 8.428px;
+  --spacing-s-mobile: 9.481px;
+  --spacing-base-mobile: 12px;
+  --spacing-m-mobile: 13.5px;
+  --spacing-l-mobile: 15.188px;
+  --spacing-xl-mobile: 17.086px;
+  --spacing-xxl-mobile: 19.222px;
+  --spacing-xxxl-mobile: 21.624px;
+
   /* Layout Set */
   --container-sm: 768px;
   --container: 1120px;
@@ -100,6 +118,19 @@
   --white-opacity-30: hsla(0 0% 100% / 23%);
   --white-opacity-20: hsla(0 0% 100% / 11%);
   --white-opacity-10: hsla(0 0% 100% / 0%);
+
+  /* Animation Duration Set */
+  --duration-base: 0.5s;
+  --duration-slowest: 2s;
+  --duration-slow: calc((var(--duration-base) + var(--duration-slowest)) / 2);
+  --duration-fastest: 0.15s;
+  --duration-fast: calc((var(--duration-base) + var(--duration-fastest)) / 2);
+  --delay-base: 0.5s;
+  --delay-slowest: 2s;
+  --delay-slow: calc((var(--delay-base) + var(--delay-slowest)) / 2);
+  --delay-fastest: 0.15s;
+  --delay-fast: calc((var(--delay-base) + var(--delay-fastest)) / 2);
+  --delay-gradual-base: 0.5s;
 }
 body {
   font-size: 16px;
