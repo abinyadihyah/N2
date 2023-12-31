@@ -276,227 +276,227 @@ h1 {
 
 .text-primary-100,
 .heading-primary-100 .brxe-heading,
-.hover\:-primary-100:hover {
+.hover\:text-primary-100:hover {
   color: var(--primary-100);
 }
 .text-primary-200,
 .heading-primary-200 .brxe-heading,
-.hover\:-primary-200:hover {
+.hover\:text-primary-200:hover {
   color: var(--primary-200);
 }
 .text-primary-300,
 .heading-primary-300 .brxe-heading,
-.hover\:-primary-300:hover {
+.hover\:text-primary-300:hover {
   color: var(--primary-300);
 }
 .text-primary-400,
 .heading-primary-400 .brxe-heading,
-.hover\:-primary-400:hover {
+.hover\:text-primary-400:hover {
   color: var(--primary-400);
 }
 .text-primary-500,
 .heading-primary-500 .brxe-heading,
-.hover\:-primary-500:hover {
+.hover\:text-primary-500:hover {
   color: var(--primary-500);
 }
 .text-primary-600,
 .heading-primary-600 .brxe-heading,
-.hover\:-primary-600:hover {
+.hover\:text-primary-600:hover {
   color: var(--primary-600);
 }
 .text-primary-700,
 .heading-primary-700 .brxe-heading,
-.hover\:-primary-700:hover {
+.hover\:text-primary-700:hover {
   color: var(--primary-700);
 }
 .text-primary-800,
 .heading-primary-800 .brxe-heading,
-.hover\:-primary-800:hover {
+.hover\:text-primary-800:hover {
   color: var(--primary-800);
 }
 .text-primary-900,
 .heading-primary-900 .brxe-heading,
-.hover\:-primary-900:hover {
+.hover\:text-primary-900:hover {
   color: var(--primary-900);
 }
 .text-secondary-100,
 .heading-secondary-100 .brxe-heading,
-.hover\:-secondary-100:hover {
+.hover\:text-secondary-100:hover {
   color: var(--secondary-100);
 }
 .text-secondary-200,
 .heading-secondary-200 .brxe-heading,
-.hover\:-secondary-200:hover {
+.hover\:text-secondary-200:hover {
   color: var(--secondary-200);
 }
 .text-secondary-300,
 .heading-secondary-300 .brxe-heading,
-.hover\:-secondary-300:hover {
+.hover\:text-secondary-300:hover {
   color: var(--secondary-300);
 }
 .text-secondary-400,
 .heading-secondary-400 .brxe-heading,
-.hover\:-secondary-400:hover {
+.hover\:text-secondary-400:hover {
   color: var(--secondary-400);
 }
 .text-secondary-500,
 .heading-secondary-500 .brxe-heading,
-.hover\:-secondary-500:hover {
+.hover\:text-secondary-500:hover {
   color: var(--secondary-500);
 }
 .text-secondary-600,
 .heading-secondary-600 .brxe-heading,
-.hover\:-secondary-600:hover {
+.hover\:text-secondary-600:hover {
   color: var(--secondary-600);
 }
 .text-secondary-700,
 .heading-secondary-700 .brxe-heading,
-.hover\:-secondary-700:hover {
+.hover\:text-secondary-700:hover {
   color: var(--secondary-700);
 }
 .text-secondary-800,
 .heading-secondary-800 .brxe-heading,
-.hover\:-secondary-800:hover {
+.hover\:text-secondary-800:hover {
   color: var(--secondary-800);
 }
 .text-secondary-900,
 .heading-secondary-900 .brxe-heading,
-.hover\:-secondary-900:hover {
+.hover\:text-secondary-900:hover {
   color: var(--secondary-900);
 }
 .text-tertiary-100,
 .heading-tertiary-100 .brxe-heading,
-.hover\:-tertiary-100:hover {
+.hover\:text-tertiary-100:hover {
   color: var(--tertiary-100);
 }
 .text-tertiary-200,
 .heading-tertiary-200 .brxe-heading,
-.hover\:-tertiary-200:hover {
+.hover\:text-tertiary-200:hover {
   color: var(--tertiary-200);
 }
 .text-tertiary-300,
 .heading-tertiary-300 .brxe-heading,
-.hover\:-tertiary-300:hover {
+.hover\:text-tertiary-300:hover {
   color: var(--tertiary-300);
 }
 .text-tertiary-400,
 .heading-tertiary-400 .brxe-heading,
-.hover\:-tertiary-400:hover {
+.hover\:text-tertiary-400:hover {
   color: var(--tertiary-400);
 }
 .text-tertiary-500,
 .heading-tertiary-500 .brxe-heading,
-.hover\:-tertiary-500:hover {
+.hover\:text-tertiary-500:hover {
   color: var(--tertiary-500);
 }
 .text-tertiary-600,
 .heading-tertiary-600 .brxe-heading,
-.hover\:-tertiary-600:hover {
+.hover\:text-tertiary-600:hover {
   color: var(--tertiary-600);
 }
 .text-tertiary-700,
 .heading-tertiary-700 .brxe-heading,
-.hover\:-tertiary-700:hover {
+.hover\:text-tertiary-700:hover {
   color: var(--tertiary-700);
 }
 .text-tertiary-800,
 .heading-tertiary-800 .brxe-heading,
-.hover\:-tertiary-800:hover {
+.hover\:text-tertiary-800:hover {
   color: var(--tertiary-800);
 }
 .text-tertiary-900,
 .heading-tertiary-900 .brxe-heading,
-.hover\:-tertiary-900:hover {
+.hover\:text-tertiary-900:hover {
   color: var(--tertiary-900);
 }
 .text-slate-100,
 .heading-slate-100 .brxe-heading,
-.hover\:-slate-100:hover {
+.hover\:text-slate-100:hover {
   color: var(--slate-100);
 }
 .text-slate-200,
 .heading-slate-200 .brxe-heading,
-.hover\:-slate-200:hover {
+.hover\:text-slate-200:hover {
   color: var(--slate-200);
 }
 .text-slate-300,
 .heading-slate-300 .brxe-heading,
-.hover\:-slate-300:hover {
+.hover\:text-slate-300:hover {
   color: var(--slate-300);
 }
 .text-slate-400,
 .heading-slate-400 .brxe-heading,
-.hover\:-slate-400:hover {
+.hover\:text-slate-400:hover {
   color: var(--slate-400);
 }
 .text-slate-500,
 .heading-slate-500 .brxe-heading,
-.hover\:-slate-500:hover {
+.hover\:text-slate-500:hover {
   color: var(--slate-500);
 }
 .text-slate-600,
 .heading-slate-600 .brxe-heading,
-.hover\:-slate-600:hover {
+.hover\:text-slate-600:hover {
   color: var(--slate-600);
 }
 .text-slate-700,
 .heading-slate-700 .brxe-heading,
-.hover\:-slate-700:hover {
+.hover\:text-slate-700:hover {
   color: var(--slate-700);
 }
 .text-slate-800,
 .heading-slate-800 .brxe-heading,
-.hover\:-slate-800:hover {
+.hover\:text-slate-800:hover {
   color: var(--slate-800);
 }
 .text-slate-900,
 .heading-slate-900 .brxe-heading,
-.hover\:-slate-900:hover {
+.hover\:text-slate-900:hover {
   color: var(--slate-900);
 }
 .text-black,
 .heading-black .brxe-heading,
-.hover\:-black:hover {
+.hover\:text-black:hover {
   color: var(--black);
 }
 .text-black-soft,
 .heading-black-soft .brxe-heading,
-.hover\:-black-soft:hover {
+.hover\:text-black-soft:hover {
   color: var(--black-soft);
 }
 .text-black-softer,
 .heading-black-softer .brxe-heading,
-.hover\:-black-softer:hover {
+.hover\:text-black-softer:hover {
   color: var(--black-softer);
 }
 .text-black-softest,
 .heading-black-softest .brxe-heading,
-.hover\:-black-softest:hover {
+.hover\:text-black-softest:hover {
   color: var(--black-softest);
 }
 .text-gray,
 .heading-gray .brxe-heading,
-.hover\:-gray:hover {
+.hover\:text-gray:hover {
   color: var(--gray);
 }
 .text-white-darkest,
 .heading-white-darkest .brxe-heading,
-.hover\:-white-darkest:hover {
+.hover\:text-white-darkest:hover {
   color: var(--white-darkest);
 }
 .text-white-darker,
 .heading-white-darker .brxe-heading,
-.hover\:-white-darker:hover {
+.hover\:text-white-darker:hover {
   color: var(--white-darker);
 }
 .text-white-dark,
 .heading-white-dark .brxe-heading,
-.hover\:-white-dark:hover {
+.hover\:text-white-dark:hover {
   color: var(--white-dark);
 }
 .text-white,
 .heading-white .brxe-heading,
-.hover\:-white:hover {
+.hover\:text-white:hover {
   color: var(--white);
 }
 .bg-none,
