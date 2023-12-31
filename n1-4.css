@@ -21,15 +21,6 @@
   --font-xxxl-mobile: 27.03px;
   --font-xxxxl-mobile: 30.409px;
 
-  --font-xs: clamp(var(--font-xs-mobile), -0.235vw + 11.521px, var(--font-xs-desktop));
-  --font-sm: clamp(var(--font-s-mobile), -0.125vw + 12.375px, var(--font-s-desktop));
-  --font-base: clamp(var(--font-base-mobile), 0.256vw + 13.923px, var(--font-base-desktop));
-  --font-md: clamp(var(--font-m-mobile), 0.561vw + 14.519px, var(--font-m-desktop));
-  --font-lg: clamp(var(--font-l-mobile), 0.972vw + 14.904px, var(--font-l-desktop));
-  --font-xl: clamp(var(--font-xl-mobile), 1.519vw + 14.979px, var(--font-xl-desktop));
-  --font-xxl: clamp(var(--font-xxl-mobile), 2.241vw + 14.617px, var(--font-xxl-desktop));
-  --font-xxxl: clamp(var(--font-xxxl-mobile), 3.186vw + 13.65px, var(--font-xxxl-desktop));
-  --font-lead: clamp(var(--font-xxxxl-mobile), 4.415vw + 11.864px, var(--font-xxxxl-desktop));
   --line-height: 1.7;
   --line-height-heading: 1.2;
 
@@ -55,7 +46,6 @@
   --primary-700: #227385;
   --primary-800: #1a5663;
   --primary-900: #113942;
-
   --secondary-100: #fbf8ec;
   --secondary-200: #f4eccf;
   --secondary-300: #eee1b2;
@@ -115,7 +105,6 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-size: var(--font-base-desktop);
-  font-size: var(--font-base);
   line-height: var(--line-height);
 }
 .brxe-container,
@@ -156,48 +145,48 @@ h6 {
 
 .text-xs {
   font-size: 0.79rem;
-  font-size: var(--font-xs);
+  font-size: var(--font-xs-desktop);
 }
 
 .text-sm {
   font-size: 0.889rem;
-  font-size: var(--font-sm);
+  font-size: var(--font-sm-desktop);
 }
 
 .text-base,
 h6 {
   font-size: 1rem;
-  font-size: var(--font-base);
+  font-size: var(--font-base-desktop);
 }
 
 .text-md,
 h5 {
   font-size: 1.125rem;
-  font-size: var(--font-md);
+  font-size: var(--font-md-desktop);
 }
 
 .text-lg,
 h4 {
   font-size: 1.266rem;
-  font-size: var(--font-lg);
+  font-size: var(--font-lg-desktop);
 }
 
 .text-xl,
 h3 {
   font-size: 1.424rem;
-  font-size: var(--font-xl);
+  font-size: var(--font-xl-desktop);
 }
 
 .text-2xl,
 h2 {
   font-size: 1.602rem;
-  font-size: var(--font-xxl);
+  font-size: var(--font-xxl-desktop);
 }
 
 .text-3xl,
 h1 {
   font-size: 1.802rem;
-  font-size: var(--font-xxxl);
+  font-size: var(--font-xxxl-desktop);
 }
 .text-4xl {
   font-size: 2.027rem;
@@ -2622,7 +2611,6 @@ h1 {
 .h-fit {
   height: fit-content;
 }
-
 .cover {
   object-fit: cover;
 }
@@ -2633,7 +2621,7 @@ h1 {
   object-fit: fill;
 }
 .scale-down {
-  object-fit: fill;
+  object-fit: scale-down;
 }
 .aspect-auto {
   aspect-ratio: auto;
@@ -4939,42 +4927,42 @@ h1 {
 
   .sm\:text-xs {
     font-size: 0.79rem;
-    font-size: var(--font-xs);
+    font-size: var(--font-xs-mobile);
   }
 
   .sm\:text-sm {
     font-size: 0.889rem;
-    font-size: var(--font-sm);
+    font-size: var(--font-sm-mobile);
   }
 
   .sm\:text-base {
     font-size: 1rem;
-    font-size: var(--font-base);
+    font-size: var(--font-base-mobile);
   }
 
   .sm\:text-md {
     font-size: 1.125rem;
-    font-size: var(--font-md);
+    font-size: var(--font-md-mobile);
   }
 
   .sm\:text-lg {
     font-size: 1.266rem;
-    font-size: var(--font-lg);
+    font-size: var(--font-lg-mobile);
   }
 
   .sm\:text-xl {
     font-size: 1.424rem;
-    font-size: var(--font-xl);
+    font-size: var(--font-xl-mobile);
   }
 
   .sm\:text-2xl {
     font-size: 1.602rem;
-    font-size: var(--font-xxl);
+    font-size: var(--font-xxl-mobile);
   }
 
   .sm\:text-3xl {
     font-size: 1.802rem;
-    font-size: var(--font-xxxl);
+    font-size: var(--font-xxxl-mobile);
   }
 
   .sm\:text-4xl {
