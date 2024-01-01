@@ -154,7 +154,8 @@ body {
 .container-lg {
   max-width: var(--container-lg);
 }
-.side-padding {
+.side-padding,
+.sp {
   padding-left: 16px;
   padding-right: 16px;
   padding-left: var(--side-padding);
@@ -2730,6 +2731,10 @@ h1 {
   border-radius: 48px;
 }
 
+.radius-circle {
+  border-radius: 9999px;
+}
+
 .shadow-s,
 .hover\:shadow-s:hover {
   box-shadow: var(--shadow-s);
@@ -2803,7 +2808,8 @@ h1 {
   cursor: pointer;
 }
 
-.animate-none {
+.animate-none,
+.hover\:animate-none:hover {
   animation: none;
 }
 .animate-spin,
